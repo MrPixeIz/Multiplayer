@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1937430607760214}
+  m_IsPrefabAsset: 1
+--- !u!1 &1937430607760214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4597261238782214}
+  - component: {fileID: 114088065215907744}
+  - component: {fileID: 114518048288934560}
+  m_Layer: 0
+  m_Name: NetworkManagerSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4597261238782214
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1937430607760214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114088065215907744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1937430607760214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 219
+    i1: 132
+    i2: 210
+    i3: 45
+    i4: 82
+    i5: 99
+    i6: 60
+    i7: 164
+    i8: 41
+    i9: 125
+    i10: 40
+    i11: 40
+    i12: 177
+    i13: 175
+    i14: 153
+    i15: 167
+  m_ServerOnly: 1
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114518048288934560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1937430607760214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61faa921ed83f5f4d916090fa03d00af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreDisplayerPrefab: {fileID: 1241947320355084, guid: 1a90993e9ae035f42885247ed0ec4a10,
+    type: 2}
+  playerRespawnManagerPrefab: {fileID: 1560730898078350, guid: a540484c169d3164bb34debf989be37a,
+    type: 2}
+  middleOscillatorPrefab: {fileID: 1524428382102448, guid: 9f8052fb5481bad4ca869422df52d8c1,
+    type: 2}
+  RedSide: {fileID: 0}
+  BlueSide: {fileID: 0}
