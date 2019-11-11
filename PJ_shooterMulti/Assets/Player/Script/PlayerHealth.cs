@@ -25,9 +25,9 @@ public class PlayerHealth : NetworkBehaviour, Damagable
     [Command]
     public void CmdDealDamage(GameObject from, int damage)
     {
-        if (from != null)
+        TeamManager fromTeanManager = from.GetComponent<TeamManager>();
+        if (fromTeanManager != null)
         {
-            TeamManager fromTeanManager = from.GetComponent<TeamManager>();
 
             if (scoreDisplayer != null)
             {
